@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+
+}
+/* -------------------------------- */
+img{
+	width: 300px;
+}
+
+/* ------------------------------- */
+
+header{
+	color: orange;
+}
+
+.title{
+	color: teal;
+}
+
+.link {
+	color: forestgreen;
+}
+
+#vibor_temi{
+	color: royalblue;
+}
+
+span.abzac1{
+	color: coral;
+}
+
+section div h2{
+	color: lightgray;
+} 
+
+footer p{
+	color: green;
+}
+
+.footer li{
+	color: indigo;
+}
+
+.abzac2,
+.abzac3{
+	color: darkblue;
+}
+.content > p{
+	color: red;
+}
+
+p.content + *{
+	color: green;
+} 
+
+
+
+
+
+
+
+
+
+
